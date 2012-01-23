@@ -40,7 +40,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/torospr/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_toro_spr
+PRODUCT_NAME := full_torospr
 PRODUCT_DEVICE := torospr
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Full AOSP on Toro-SPR
