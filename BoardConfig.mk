@@ -16,4 +16,4 @@
 -include vendor/samsung/torospr/BoardConfigVendor.mk
 
 # Use the part that is common between all toros
-include device/samsung/toro/BoardConfig.mk
+include device/samsung/tuna/BoardConfig.mk

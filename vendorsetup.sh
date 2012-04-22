@@ -1,4 +1,5 @@
-# Copyright (C) 2012 The Android Open Source Project
+#
+# Copyright (C) 2011 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,14 +12,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# This file includes all definitions that apply only to torospr devices
 #
-# Anything that is generic to all tuna products should go in the tuna directory
-#
-# Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/samsung/torospr/overlay
-
-$(call inherit-product, device/samsung/tuna/device.mk)
-$(call inherit-product-if-exists, vendor/samsung/torospr/device-vendor.mk)
+add_lunch_combo full_torospr-userdebug
