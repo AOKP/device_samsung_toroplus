@@ -72,4 +72,11 @@
     <!-- If this value is true, The mms content-disposition field is supported correctly.
          If false, Content-disposition fragments are ignored -->
     <bool name="config_mms_content_disposition_support">false</bool>
+
+
+    <!-- Bring in Sprint default carrier label strings -->
+
+    <string name="roamingText0">Digital Roaming</string>
+    <string name="roamingText1">Sprint</string>
+    <string name="roamingText2">Digital Roaming</string>
 </resources>
