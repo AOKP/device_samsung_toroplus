@@ -17,3 +17,6 @@
 
 # Use the part that is common between all toros
 include device/samsung/tuna/BoardConfig.mk
+
+# kernel
+TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
