@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# This file includes all definitions that apply only to torospr devices
+# This file includes all definitions that apply only to toroplus devices
 #
 # Anything that is generic to all tuna products should go in the tuna directory
 #
 # Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/samsung/torospr/overlay
+DEVICE_PACKAGE_OVERLAYS := device/samsung/toroplus/overlay
 
 $(call inherit-product, device/samsung/tuna/device.mk)
-$(call inherit-product-if-exists, vendor/samsung/torospr/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/toroplus/device-vendor.mk)

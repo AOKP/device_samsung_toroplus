@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Use the non-open-source part, if present
--include vendor/samsung/torospr/BoardConfigVendor.mk
+-include vendor/samsung/toroplus/BoardConfigVendor.mk
 
 # Use the part that is common between all toros
 include device/samsung/tuna/BoardConfig.mk
