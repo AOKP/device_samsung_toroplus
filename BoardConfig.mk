@@ -20,3 +20,6 @@ include device/samsung/tuna/BoardConfig.mk
 
 # kernel
 TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
+
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := toroplus,torospr
