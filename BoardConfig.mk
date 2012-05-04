@@ -19,6 +19,9 @@
 include device/samsung/tuna/BoardConfig.mk
 
 # kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/tuna
+TARGET_KERNEL_CONFIG := tuna_defconfig
+
 TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
 
 # Asserts
