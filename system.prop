@@ -22,3 +22,10 @@ ro.device.gpu=PowerVR SGX SGX540
 ro.device.rear_cam=5 MP
 ro.device.front_cam=1.3 MP
 ro.device.screen_res=720x1280
+
+# Default ecclist
+ro.ril.ecclist=112,911,#911,*911
+
+#Operator values
+ro.cdma.home.operator.alpha=Sprint
+ro.cdma.home.operator.numeric=310120
