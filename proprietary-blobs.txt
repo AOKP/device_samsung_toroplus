@@ -30,6 +30,7 @@
 /system/lib/libjni_eglfence.so
 /system/lib/libjni_mosaic.so
 /system/lib/libnfc_jni.so
+/system/bin/fRom
 /system/vendor/bin/pvrsrvctl
 /system/vendor/firmware/ducati-m3.bin
 /system/vendor/firmware/libpn544_fw.so
