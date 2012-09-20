@@ -25,4 +25,4 @@ TARGET_KERNEL_CONFIG := tuna_defconfig
 TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := toroplus,torospr
+TARGET_OTA_ASSERT_DEVICE := toroplus

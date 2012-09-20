@@ -21,16 +21,20 @@
 # lines, full and toro, hence its name.
 #
 
-# Camera
+# Gallery
 PRODUCT_PACKAGES := \
-    Camera \
     Gallery
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
     device/samsung/toroplus/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     device/samsung/toroplus/apns-conf.xml:system/etc/apns-conf.xml \
-    frameworks/base/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cdma.home.operator.numeric=310120 \
+    ro.cdma.home.operator.alpha=Sprint \
+    ro.telephony.default_network=4
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
