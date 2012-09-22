@@ -19,10 +19,9 @@
 include device/samsung/tuna/BoardConfig.mk
 
 # kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/tuna
-TARGET_KERNEL_CONFIG := tuna_defconfig
-
 TARGET_PREBUILT_KERNEL := device/samsung/tuna/kernel
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := toroplus
+
+BOARD_INVENSENSE_APPLY_COMPASS_NOISE_FILTER := true
