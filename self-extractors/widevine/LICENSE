@@ -1,5 +1,5 @@
 THIS DEVELOPER SOFTWARE LICENSE AGREEMENT (THE "AGREEMENT") IS A LEGALLY
-BINDING AGREEMENT BETWEEN NXP Semiconductors Netherlands B.V ("LICENSOR") AND
+BINDING AGREEMENT BETWEEN Google Inc. ("LICENSOR") AND
 YOU OR THE LEGAL ENTITY YOU REPRESENT ("You" or its possessive, "Your"). BY
 TYPING "I ACCEPT" WHERE INDICATED YOU ACKNOWLEDGE THAT YOU HAVE READ THIS
 AGREEMENT, UNDERSTAND IT AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
@@ -22,8 +22,8 @@ SUCH ENTITY TO THE TERMS AND CONDITIONS OF THIS AGREEMENT.
           open-source contribution developed by You, designed to operate with
           Android that does not contain or incorporate any of the Software.
 
-      c.  The term "Authorized Android Enabled Device" means the device
-          known as the Galaxy Nexus only.
+      c.  The term "Authorized Android Enabled Device" means only the device
+          identified on the site from which You downloaded the Software.
           The term "Software" means the Licensor's proprietary software and
           libraries in object code form, designed for use on the Authorized
           Android Enabled Device.
