@@ -20,9 +20,5 @@
 
 DEVICE_PACKAGE_OVERLAYS := device/samsung/toroplus/overlay
 
-LOCAL_KERNEL := device/samsung/tuna/kernel
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
-
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toroplus/device-vendor.mk)
