@@ -47,7 +47,7 @@ then
 fi # jb-dev
 (cd ../../../../out/target/product/toroplus ; zip -r ../../../../device/samsung/toroplus/self-extractors/full_toroplus-pseudo_ota.zip system)
 ZIP=full_toroplus-pseudo_ota.zip
-BUILD=20121228
+BUILD=20130220
 ROOTDEVICE=toroplus
 DEVICE=toroplus
 MANUFACTURER=samsung
