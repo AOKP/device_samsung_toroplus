@@ -20,5 +20,11 @@
 
 DEVICE_PACKAGE_OVERLAYS := device/samsung/toroplus/overlay
 
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.config.vc_call_vol_steps=7
+
+PRODUCT_PACKAGES := \
+	CellBroadcastReceiver
+
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toroplus/device-vendor.mk)
