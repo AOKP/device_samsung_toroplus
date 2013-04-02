@@ -46,8 +46,6 @@
         <item>"mobile_cbs,12,0,2,60000,true"</item>
     </string-array>
 
-<<<<<<< HEAD
-
     <!-- List of file paths for USB host busses to exclude from USB host support.
          For example, if the first USB bus on the device is used to communicate
          with the modem or some other restricted hardware, add "/dev/bus/usb/001/"
